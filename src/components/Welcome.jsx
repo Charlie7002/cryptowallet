@@ -55,7 +55,7 @@ const Welcome = () => {
 	return (
 		<div className="flex w-full justify-center items-center">
 			<div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
-				<div className="flex flex-1 justify-start items-start flex-col mf:mr-10">
+				<div className="flex flex-1 justify-start items-start flex-col mf:mr-20">
 					<h1 className="text-3xl sm:text-5xl text-white  py-1">
 						Send Crypto <br /> across the world
 					</h1>
@@ -67,7 +67,7 @@ const Welcome = () => {
 						<button
 							type="button"
 							onClick={connectWallet}
-							className="flex flex-row justify-center items-center my-5 bg-[#2952e3] p-3 rounded-full cursor-pointer hover:bg-[#2546bd]"
+							className="flex flex-row justify-center items-center my-5 bg-[#4f04c9] px-7 py-3 rounded-full cursor-pointer  transition ease-in-out delay-150  hover:-translate-y-1 hover:bg-[#6c13fc] duration-300"
 						>
 							<AiFillPlayCircle className="text-white mr-2" />
 							<p className="text-white text-base font-semibold">
@@ -76,8 +76,8 @@ const Welcome = () => {
 						</button>
 					)}
 
-					<div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10">
-						<div className={`rounded-tl-2xl ${companyCommonStyles}`}>
+					<div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10 backdrop-blur-sm bg-white/5 rounded-2xl">
+						<div className={`rounded-tl-2xl  ${companyCommonStyles}`}>
 							Reliability
 						</div>
 						<div className={companyCommonStyles}>Security</div>
@@ -141,7 +141,7 @@ const Welcome = () => {
 							handleChange={handleChange}
 						/>
 
-						<div className="h-[1px] w-full bg-gray-400 my-2" />
+						<div className="h-[0.5px] w-full bg-gray-400 my-2" />
 
 						{isLoading ? (
 							<Loader />
@@ -149,7 +149,7 @@ const Welcome = () => {
 							<button
 								type="button"
 								onClick={handleSubmit}
-								className="text-white w-full mt-2 border-[1px] p-2 border-[#3d4f7c] hover:bg-[#3d4f7c] rounded-full cursor-pointer"
+								className="text-white w-full mt-2 border-[1px] p-2 border-[#291583]  rounded-full cursor-pointer  transition ease-in-out delay-150  hover:-translate-y-1 hover:bg-[#391faf] duration-300"
 							>
 								Send now
 							</button>

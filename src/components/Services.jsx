@@ -32,7 +32,7 @@ const Services = () => (
 				</p>
 			</div>
 
-			<div className="flex-1 flex flex-col justify-start items-center">
+			<div className="flex-1 flex flex-col justify-start items-center  ">
 				<ServiceCard
 					color="bg-[#2952E3]"
 					title="Security guarantee"
@@ -46,7 +46,7 @@ const Services = () => (
 					subtitle="Security is guaranteed. We always maintain privacy and maintain the quality of our products"
 				/>
 				<ServiceCard
-					color="bg-[#F84550]"
+					color="bg-[#018192]"
 					title="Fastest transactions"
 					icon={<RiHeart2Fill fontSize={21} className="text-white" />}
 					subtitle="Security is guaranteed. We always maintain privacy and maintain the quality of our products"

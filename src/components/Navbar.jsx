@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { HiMenuAlt4 } from 'react-icons/hi';
 import { AiOutlineClose } from 'react-icons/ai';
 
-import logo from '../../images/logo.png';
+import logo from '../../images/logo5.svg';
 
 const NavbarItem = ({ title, classProps }) => {
 	return (
@@ -28,8 +28,8 @@ const Navbar = () => {
 
 	return (
 		<nav className="w-full flex md:justify-center justify-between items-center p-4">
-			<div className="md:flex-[0.5] flex-initial justify-center items-center">
-				<img src={logo} alt="logo" className="w-32 cursor-pointer" />
+			<div className="md:flex-[0.5]   justify-center items-center">
+				<img src={logo} alt="logo" className="w-48 cursor-pointer " />
 			</div>
 			<ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
 				{['Market', 'Exchange', 'Tutorials', 'Wallets'].map(
@@ -37,7 +37,7 @@ const Navbar = () => {
 						<NavbarItem key={item + index} title={item} />
 					),
 				)}
-				<li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
+				<li className="bg-[#4f04c9] py-2 px-7 mx-4 rounded-full cursor-pointer  transition ease-in-out delay-150   hover:bg-[#6c13fc] duration-300 ">
 					Login
 				</li>
 			</ul>

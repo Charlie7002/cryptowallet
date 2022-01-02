@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 * html {
 	padding: 0;
@@ -8,44 +8,50 @@
 
 body {
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
 .gradient-bg-welcome {
-	background-color: #0f0e13;
+	background-color: #10003d;
 	background-image: radial-gradient(
-			at 0% 0%,
-			hsla(253, 16%, 7%, 1) 0,
+			at 40% 20%,
+			hsla(0, 0%, 0%, 1) 0,
 			transparent 50%
 		),
-		radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
-		radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
+		radial-gradient(at 0% 50%, hsla(244, 100%, 20%, 1) 0, transparent 50%),
+		radial-gradient(at 80% 50%, hsla(0, 0%, 0%, 1) 0, transparent 50%),
+		/* radial-gradient(at 0% 100%, hsla(220, 49%, 20%, 1) 0, transparent 50%), */
+			radial-gradient(at 0% 0%, hsla(276, 100%, 20%, 1) 0, transparent 50%);
 }
 
 .gradient-bg-services {
-	background-color: #0f0e13;
-	background-image: radial-gradient(
-			at 0% 0%,
-			hsla(253, 16%, 7%, 1) 0,
-			transparent 50%
-		),
-		radial-gradient(at 50% 100%, hsla(225, 39%, 25%, 1) 0, transparent 50%);
+	background-color: #10003d;
+	background-image: radial-gradient(at 40% 20%, #10003d, transparent 50%),
+		radial-gradient(at 0% 50%, hsla(244, 100%, 20%, 1) 0, transparent 50%);
+	/* radial-gradient(at 80% 50%, hsla(0, 0%, 0%, 1) 0, transparent 50%), */
+	/* radial-gradient(at 0% 100%, hsla(220, 49%, 20%, 1) 0, transparent 50%); */
+	/* radial-gradient(at 0% 0%, hsla(276, 100%, 20%, 1) 0, transparent 50%); */
 }
 
 .gradient-bg-transactions {
-	background-color: #0f0e13;
+	background-color: #10003d;
 	background-image: radial-gradient(
 			at 0% 100%,
 			hsla(253, 16%, 7%, 1) 0,
 			transparent 50%
+				radial-gradient(
+					at 0% 0%,
+					hsla(276, 100%, 20%, 1) 0,
+					transparent 50%
+				)
 		),
 		radial-gradient(at 50% 0%, hsla(225, 39%, 25%, 1) 0, transparent 50%);
 }
 
 .gradient-bg-footer {
-	background-color: #0f0e13;
+	background-color: #10003d;
 	background-image: radial-gradient(
 			at 0% 100%,
 			hsla(253, 16%, 7%, 1) 0,
@@ -65,7 +71,7 @@ body {
 
 /* white glassmorphism */
 .white-glassmorphism {
-	background: rgba(255, 255, 255, 0.05);
+	background: rgba(9, 0, 49, 0.05);
 	border-radius: 16px;
 	backdrop-filter: blur(5px);
 	-webkit-backdrop-filter: blur(5px);
@@ -76,15 +82,15 @@ body {
 	background-color: #a099ff;
 	background-image: radial-gradient(
 			at 83% 67%,
-			rgb(152, 231, 156) 0,
+			rgb(25, 4, 143) 0,
 			transparent 58%
 		),
 		radial-gradient(at 67% 20%, hsla(357, 94%, 71%, 1) 0, transparent 59%),
 		radial-gradient(at 88% 35%, hsla(222, 81%, 65%, 1) 0, transparent 50%),
-		radial-gradient(at 31% 91%, hsla(9, 61%, 61%, 1) 0, transparent 52%),
+		radial-gradient(at 31% 91%, rgb(108, 19, 252) 0, transparent 52%),
 		radial-gradient(at 27% 71%, hsla(336, 91%, 65%, 1) 0, transparent 49%),
-		radial-gradient(at 74% 89%, hsla(30, 98%, 65%, 1) 0, transparent 51%),
-		radial-gradient(at 53% 75%, hsla(174, 94%, 68%, 1) 0, transparent 45%);
+		radial-gradient(at 74% 100%, rgb(2, 0, 110) 0, transparent 91%),
+		radial-gradient(at 53% 75%, rgb(217, 122, 255) 0, transparent 45%);
 }
 
 .text-gradient {

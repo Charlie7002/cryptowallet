@@ -23,7 +23,7 @@ const Transactions = () => {
 
 		return (
 			<div
-				className="bg-[#181918] m-4 flex flex-1
+				className="bg-[#03010883] m-4 flex flex-1
 	  2xl:min-w-[450px]
       2xl:max-w-[500px]
       sm:min-w-[270px]
@@ -66,8 +66,8 @@ const Transactions = () => {
 						alt="nature"
 						className="w-full h-64 2xl:h-96 rounded-md shadow-lg object-cover"
 					/>
-					<div className="bg-black p-3 px-5 w-max rounded-3xl -mt-5 shadow-2xl">
-						<p className="text-[#37c7da] font-bold">{timestamp}</p>
+					<div className="bg-black p-2 px-5 w-max rounded-3xl -mt-5 shadow-2xl">
+						<p className="text-[#4237da] font-light">{timestamp}</p>
 					</div>
 				</div>
 			</div>
